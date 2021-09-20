@@ -1,0 +1,112 @@
+td{ /* selector*/
+text-align:center; /* propert: value; */
+}
+/* body{
+  color:violet  
+} */
+body{
+    font-family: 'Oswald' ;
+    font-size: 15px;
+    margin-left: 100px;
+    /*background-image: url("simpcard.png");*/
+    background-color: beige
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    color: pink
+}
+table tr:first-child{
+    color: green
+}
+div#main-content{
+    background-color:white ;
+    padding: 20px;
+ display: flex;
+ /* justify-content: space-between ; */
+ justify-content: space-around ;
+}
+#umiejki{
+    /* flex-grow: 1; */
+    align-self: center;
+}
+#articles{
+ /* flex-grow: 1; */
+}
+h3{
+    color:teal;
+    font-size: 30px;
+    font-weight: bold; 
+}
+p{
+    color: goldenrod
+}
+.sup_element {
+    color: red
+}
+sup.sup_element{/*stylowanie elemntu sup o klasie sup  eleement*/}
+
+footer p{
+    color: red
+}
+footer > p{
+    color: red
+}
+table{
+    line-height: 200%;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    border: 3px solid blue;
+    border-collapse: collapse;
+    
+   
+}
+footer strong{
+    text-decoration: underline wavy red;
+}
+footer{
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+    footer{
+        position:fixed;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div#main-content, header{
+        flex-direction: column;
+    }
+}
+
+/* span{
+    display:block;
+} */
+
+
+/* .pierwsza{
+    color: rosybrown;
+}
+
+h1{
+    color: green;
+}
+.trzecia{
+    color: brown !important;
+}
+#pierwsze{ color: blue;} */
+/* ">" jest selektor dziecka  bez selektoru dziecka chodzi o byle jakiego potomka*/
