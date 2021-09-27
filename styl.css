@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    background: gray;
+    
+}
+header{
+    height: 55px;
+    text-align: center;
+    color: goldenrod;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 20px;
+}
+#pudło{
+    text-align: center;
+    height: 600px;
+    background: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-radius: 30px;
+    color: purple;
+}
+#pudło div{
+    display: flex;
+    border: solid 2px black;
+    border-radius: 13px;
+    /* margin: 10px; */
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.zielony{
+    height: 450px;
+   
+    background-color: rgb(118, 255, 118);
+}
+.niebieski{
+    height: 250px;
+  
+    background-color: rgb(112, 112, 241);
+}
+.czerwony{
+    height: 150px;
+    
+    background-color: rgb(238, 107, 107);
+}
+
+.zolty{
+    height: 350px;
+    
+    background-color: rgb(248, 248, 117);
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: background-gradien black;
+}
+ th, td{
+ 
+    border: solid 1px pink;
+    background: white;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+footer > p{
+    background: none;
+}
+table{
+    width: 6cm;
+    text-align: center;
+    border: solid 1px pink;
+    border-radius: 10px;
+}
+footer >a{
+    margin-top: 1cm;
+    color: white;
+}
+
+footer >table {
+    margin-top: 0.6cm;
+}
